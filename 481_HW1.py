@@ -9,7 +9,7 @@ for j in range(100):
     fc = x[j+1] * np.sin(3 * x[j+1]) - np.exp(x[j+1])
 
     if abs(fc) < 1e-6:
-        print(x[j])
+        #print(x[j])
         #print(fc)
         #print(j)
         A1 = x[j]
@@ -27,7 +27,7 @@ for i in range(0, 100):
         xr = x
     
     if(abs(fc) < 1e-6):
-        print(x)
+        #print(x)
         #print(fc)
         #print(i)
         A2 = x
@@ -35,6 +35,7 @@ for i in range(0, 100):
         break
 
 A3 = np.array([nr_iterations, bi_iterations])
+print(A3)
 
 
 A = np.array([[1, 2], [-1, 1]])
