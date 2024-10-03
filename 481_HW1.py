@@ -27,14 +27,12 @@ for i in range(0, 100):
         xr = x
     
     if(abs(fc) < 1e-6):
-        #print(x)
-        #print(fc)
-        #print(i)
+        
         A2 = x
         bi_iterations = i
         break
 
-A3 = np.array([nr_iterations, bi_iterations])
+A3 = np.array([nr_iterations + 1, bi_iterations + 1])
 print(A3)
 
 
