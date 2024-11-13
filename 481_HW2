@@ -1,0 +1,6 @@
+import numpy as np
+from scipy.integrate import odeint
+from scipy.integrate import RK45
+import matplotlib.pyplot as plt
+x = range(1, 6)
+print(x)
